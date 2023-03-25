@@ -7,6 +7,6 @@ easydict
 matplotlib
 pillow
 requests
-flask
+Flask==2.1.0
 waitress
 paste

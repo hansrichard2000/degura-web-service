@@ -1,4 +1,9 @@
-runtime: python39 # or another supported version
+runtime: python # or another supported version
+env: flex
+entrypoint: gunicorn -b :$PORT main:app
+
+runtime_config:
+  python_version: 3
 
 handlers:
 # Matches requests to /images/... to files in static/images/...
