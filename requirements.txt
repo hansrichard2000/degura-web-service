@@ -1,0 +1,12 @@
+opencv-python==4.7.0.72
+lxml
+tqdm
+tensorflow==2.12.0
+absl-py
+easydict
+matplotlib
+pillow
+requests
+flask
+waitress
+paste
